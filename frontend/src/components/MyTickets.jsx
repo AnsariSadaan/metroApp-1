@@ -20,7 +20,8 @@ const MyTickets = () => {
         }
 
         const response = await axios.get(
-          "http://localhost:8000/api/my-ticket",
+          // "http://localhost:8000/api/my-ticket",
+          "http://192.168.0.156:8000/api/my-ticket",
           {
             headers: {
               Authorization: `Bearer ${token}`,
